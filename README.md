@@ -31,15 +31,15 @@ Our code is built on top of the [Dreamer](https://github.com/danijar/dreamer) re
 You could install all dependencies by following command:
 
 ```
-pip3 install --user tensorflow-gpu==2.2.0
-pip3 install --user tensorflow_probability
-pip3 install --user git+git://github.com/deepmind/dm_control.git
-pip3 install --user pandas
-pip3 install --user matplotlib
+pip install --user tensorflow-gpu==2.2.0
+pip install --user tensorflow_probability
+pip install --user git+git://github.com/deepmind/dm_control.git
+pip install --user pandas
+pip install --user matplotlib
 
-# Install custom dm_control environments for walker_run_sparse / cheetah_run_sparse
+# Install custom dm_control environments for walker_run_sparse and cheetah_run_sparse
 cd ../envs/dm_control
-pip3 install .
+pip install .
 ```
 
 ## Instructions
