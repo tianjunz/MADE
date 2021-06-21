@@ -16,6 +16,11 @@ cd ../envs/dm_control
 pip install .
 ```
 
+## Installation 
+```
+conda env install -f conda_env.yml
+```
+
 ## Instructions
 ### MADE (RAD)
 ```
@@ -48,13 +53,5 @@ pip install .
 python dreamer.py --logdir ./logdir/dmc_pendulum_swingup/dreamer_made/0 --task dmc_pendulum_swingup --seed 0 --beta 0.1
 ```
 
-## Installation 
-
-All of the dependencies are in the `requirements.txt`. They can be installed manually or with the following command:
-
-```
-pip install -r requirements.txt
-```
-
 ## Acknowledgement
-Our code is built on top of the [DrQ](https://github.com/denisyarats/drq) and [Dreamer](https://github.com/danijar/dreamer) repository.
+Our code is built on top of the [DrQ](https://github.com/denisyarats/drq), [Dreamer](https://github.com/danijar/dreamer) and [RE3](https://github.com/younggyoseo/RE3)repository.
