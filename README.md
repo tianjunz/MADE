@@ -19,7 +19,7 @@ pip install .
 ## Instructions
 ### MADE (RAD)
 ```
-python train.py env=hopper_hop batch_size=512 action_repeat=2 logdir=runs_rad_made
+python train.py env=hopper_hop batch_size=512 action_repeat=2 logdir=runs_rad_made beta_init=0.5
 ```
 
 
@@ -45,7 +45,7 @@ pip3 install .
 ## Instructions
 ### Dreamer + MADE
 ```
-python dreamer.py --logdir ./logdir/dmc_pendulum_swingup/dreamer_made/0 --task dmc_pendulum_swingup --seed 0
+python dreamer.py --logdir ./logdir/dmc_pendulum_swingup/dreamer_made/0 --task dmc_pendulum_swingup --seed 0 --beta 0.1
 ```
 
 ## Installation 
@@ -53,7 +53,7 @@ python dreamer.py --logdir ./logdir/dmc_pendulum_swingup/dreamer_made/0 --task d
 All of the dependencies are in the `requirements.txt`. They can be installed manually or with the following command:
 
 ```
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Acknowledgement
