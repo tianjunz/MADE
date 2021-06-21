@@ -11,7 +11,7 @@ num_train_steps: 500000
 num_train_iters: 1
 num_seed_steps: 1000
 replay_buffer_capacity: 100000
-latest_replay_buffer_capacity: 1000
+latest_replay_buffer_capacity: 10000
 seed: 1
 # eval
 eval_frequency: 5000
