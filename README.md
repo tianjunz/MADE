@@ -6,6 +6,12 @@ In this repository, we provide code for MADE algorithm in the paper mentioned ab
 
 If you find this repository useful for your research, please cite:
 ```
+@article{zhang2021made,
+  title={MADE: Exploration via Maximizing Deviation from Explored Regions},
+  author={Zhang, Tianjun and Rashidinejad, Paria and Jiao, Jiantao and Tian, Yuandong and Gonzalez, Joseph and Russell, Stuart},
+  journal={arXiv preprint arXiv:2106.10268},
+  year={2021}
+}
 ```
 
 
